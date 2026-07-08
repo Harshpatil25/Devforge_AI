@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "lint": "oxlint ."
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.1",
+    "axios": "^1.18.1",
+    "bcryptjs": "^3.0.3",
+    "compression": "^1.7.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.11.0",
+    "multer": "^2.2.0",
+    "resend": "^6.17.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "oxlint": "^1.71.0"
+  }
+}
