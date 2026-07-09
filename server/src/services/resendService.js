@@ -43,7 +43,7 @@ export async function sendWelcomeEmail({ to, name }) {
   })
 
   return resend.emails.send({
-    from: 'DevForge AI <onboarding@devforge.app>',
+    from: 'DevForge AI <harshpatil20022008@gmail.com>',
     to,
     subject: 'Welcome to DevForge AI',
     html,
@@ -60,7 +60,7 @@ export async function sendVerificationEmail({ to, name, verificationUrl }) {
   })
 
   return resend.emails.send({
-    from: 'DevForge AI <verify@devforge.app>',
+    from: 'DevForge AI <harshpatil20022008@gmail.com>',
     to,
     subject: 'Verify your DevForge AI account',
     html,
@@ -77,7 +77,7 @@ export async function sendPasswordResetEmail({ to, name, resetUrl }) {
   })
 
   return resend.emails.send({
-    from: 'DevForge AI <security@devforge.app>',
+    from: 'DevForge AI <harshpatil20022008@gmail.com>',
     to,
     subject: 'Reset your DevForge AI password',
     html,
