@@ -18,7 +18,7 @@ export function createApp() {
   app.use(compression())
   app.use(
     cors({
-      origin: process.env.CORS_ORIGIN || 'https://devforge-ai-omega.vercel.app/',
+      origin: process.env.CORS_ORIGIN || 'https://devforge-ai-omega.vercel.app',
       credentials: true,
     }),
   )
